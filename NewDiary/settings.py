@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'NewDiary.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'test_Notepad ',
+        'NAME': 'test_NotePad',
         'USER':'root',
         'PASSWORD':'password',
         'HOST':'119.23.204.8',
@@ -123,3 +123,5 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
 STATIC_URL = '/static/'
+
+
